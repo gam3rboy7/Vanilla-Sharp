@@ -28,4 +28,6 @@ List of Mods:
 
 [WTHIT](https://github.com/badasintended/wthit)
 
+[LazyDFU](https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge)
+
 And their dependencies 

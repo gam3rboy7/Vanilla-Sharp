@@ -1,0 +1,170 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 101
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 64
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ad36d52f-1ec8-48de-906e-d5f61edd74de1658177606547
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 551e94f2-4a15-417e-a42e-cd2e4d2456451658177606547
+  y = 223
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = b2002036-a890-494f-b9f0-1f0b796d47e31658177606547
+  y = 245
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 4f5d5852-862d-42da-9c84-9b256dad7ab61658177606547
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 68a3efd4-8abe-4d81-81ca-5693f7f0edec1658177606547
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #00ffbf
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e46368fb-b020-4e1f-8600-8737a0db45ea1658177606547
+  y = 0
+  height = 30
+}
+
+customization {
+  showname = true
+  orientation = bottom-left
+  crouching = false
+  x = 28
+  slim = false
+  actionid = 1ab7ff84-b263-4f74-83ce-f00f6a4d36771658191603224
+  action = addentity
+  y = -9
+  scale = 30
+  skinurl = https://minecraftskinstealer.com/api/v1/skin/download/skin/%playername%
+  parrot = false
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = About
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 67
+  width = 32
+  actionid = 59fec079-7bfc-4d01-bc80-2293d0d6dada1658192501485
+  action = addbutton
+  y = 0
+  value = https://github.com/gam3rboy7/Vanilla-Sharp
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  x = -111
+  width = 222
+  action = addwebtexture
+  actionid = 3f05745b-4575-4e5d-bce6-fc0fe89859da1658195731616
+  y = 39
+  url = https://i.imgur.com/Y3JE5Hl.png
+  height = 32
+}
+
