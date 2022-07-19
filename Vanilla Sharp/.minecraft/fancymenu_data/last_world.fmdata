@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/landyn/Documents/MultiMC/instances/Vanilla Refined Plus/.minecraft/saves/Test World
+}
+
