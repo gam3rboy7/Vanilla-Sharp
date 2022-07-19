@@ -1,3 +1,3 @@
-# Vanilla \#
+# Vanilla\#
 
 v+
