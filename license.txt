@@ -1,0 +1,1 @@
+No one is able to distribute unauthorized copies (modified or original) of this product.
