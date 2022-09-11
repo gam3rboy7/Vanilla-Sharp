@@ -30,4 +30,6 @@ List of Mods:
 
 [LazyDFU](https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge)
 
+[TerraForged](https://www.curseforge.com/minecraft/mc-mods/terraforged) 
+
 And their dependencies 
